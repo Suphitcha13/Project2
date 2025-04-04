@@ -1,0 +1,55 @@
+name: app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  sembast: ^3.8.4+1
+  samba_server: ^0.0.1
+  path: ^1.9.1
+  intl: ^0.19.0
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.4
+  sqflite: ^2.0.0+4  # อัปเดตเป็นเวอร์ชันล่าสุด
+  path_provider: ^2.1.5
+  flutter_localizations:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  url_launcher: ^6.2.5
+  flutter_colorpicker: ^1.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/tree.png
+    - assets/images/flower.png
+    - assets/0.PNG
+    - assets/100.PNG
+    - assets/25.PNG
+    - assets/50.PNG
+    - assets/75.PNG
+    - assets/daisy.png
+    - assets/rose.PNG
+    - assets/ochid.png
+    - assets/pothos.png
+    - assets/cac.png
+    - assets/kapera.png
+    - assets/sugges2/flowinter.jpg
+    - assets/sugges2/10flow.jpg
+    - assets/sugges2/air.jpg
+    - assets/sugges2/bath.jpg
+    - assets/sugges2/money.jpg
+    - assets/images/bg.png
